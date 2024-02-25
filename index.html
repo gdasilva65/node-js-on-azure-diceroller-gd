@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Roller for Games</h1>
+        <div id="dice" class="dice-area">
+            <!-- Dice will be displayed here -->
+        </div>
+        <button id="rollButton" onclick="rollDice()">Roll Dice</button>
+        <!-- Loading spinner placeholder (hidden by default) -->
+        <div id="loading" class="spinner" style="display: none;"></div>
+        <!-- Error message placeholder (hidden by default) -->
+        <p id="error" class="error-message" style="display: none;"></p>
+        <p class="instructions">
+            Press the roll button to roll the dice.
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
